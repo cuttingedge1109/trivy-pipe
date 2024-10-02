@@ -68,6 +68,10 @@ variables:
     description: 'hide progress output'
     required: false
     default: true
+  - name: dbRepository
+    description: 'comma separated list of directories where traversal is skipped'
+    required: false
+    default: ''
 
 respository: https://github.com/aquasecurity/trivy-pipe
 maintainer: 
